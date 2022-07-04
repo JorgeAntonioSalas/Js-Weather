@@ -1,0 +1,82 @@
+
+
+.App {
+  
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100vw;
+  height:100vh;
+  background-image: url('https://64.media.tumblr.com/2383cfee00e605495934e40a45e675fc/tumblr_nn4hg7JNh01utzebro1_1280.gifv');
+  background-attachment: fixed;
+  background-size: cover;
+  flex-direction: column;
+
+
+}h2{
+  font-size: 15px;
+
+}
+
+.divMain{
+  padding: 10px;
+  font-size:10px;
+  font-weight: bold;
+  width: 300px;
+  color:rgb(114, 24, 225);
+  height: 200px;
+  display: flex;
+  line-height: 0%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 100px;
+  box-shadow: 0px 0px 3px 3px rgb(183, 180, 186);
+  background-color: rgb(193, 193, 226);
+  border-radius:10%;
+}.button{
+  position: relative;
+  text-decoration: none;
+  background-color:rgb(114, 24, 225);
+  border: none;
+  padding: 4px;
+  border-radius: 20px;
+  font-size: 10px;
+  width: 20%;
+  color: beige;
+
+}
+
+.divSubMain{
+
+  line-height: 0%;
+  flex-direction: row;
+  display:flex;
+  justify-content: space-evenly;
+  
+
+}
+.miniDiv2{
+  line-height: 0%;
+  flex-direction:column;
+  display:flex;
+  justify-content: center;
+
+}
+
+.value1{
+  flex-direction: row;
+  display:flex;
+}
+
+.value0_2,.value1_2,.value2_2, .value3_2{
+  color:black;
+}
+
+
+
+
+
+
